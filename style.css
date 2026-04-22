@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(122, 122, 122);
+    margin: 0%;
+    padding: 0%;
+
+}
+header{
+    background-color: black;
+    background-image: url(img/289826e9-d774-4bd8-9fdf-b7697ce1d789.jpg);
+    text-align: center;
+    padding: 15px;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+}
+nav{
+    background-color: rgb(61, 62, 62);
+    padding: 10px;
+    text-align: center;
+}
+nav a{
+    color: rgb(10, 12, 12);
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    color: red;
+}
+h3{
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.card {
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    background-color: #444343;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: darkred;
+    margin: 5px 0 10px;
+}
+
+.card button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background-color: red;
+}
+.contact {
+    text-align: center;
+    margin-top: 40px;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    gap: 10px;
+}
+.contact input,
+.contact textarea {
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.contact button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.contact button:hover {
+    background-color: red;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: rgb(206, 211, 211);
+    font-weight: lighter;
+    padding-top: 5px;   
+    padding-bottom: 5px;
+}
